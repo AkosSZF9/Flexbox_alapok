@@ -60,24 +60,34 @@ nav ul {
 }
 
 ul {
-  border: 1px solid gray;
   padding: 7px;
   list-style: none;
   background-color: gray;
-  display: flex;
 }
 
 .link1 {
   background-color: red;
-  color: white;
   padding: 10px;
-  border: 2px solid gray;
+  border: 2px solid rgb(96, 96, 96);
+}
+
+.link1 a {
+  color: white;
 }
 
 .link2 {
+  border: 2px solid rgb(96, 96, 96);
+}
+
+.link2 a {
   color: red;
 }
 
-.link2 li {
-  border: 2px solid gray;
+a {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
 }
